@@ -9,7 +9,7 @@ I'm a Computer Science student 🤓💻 at UniCT, nothing less than in Sicily! W
   - I'm working on a **Duolingo-like app** to learn Bulgarian 🇧🇬. The goal is to finally communicate with my girlfriend's family (and vice versa)!
   - Gym-wise, I'm grinding to finally unlock the **Muscle-Up**! ✨
 
-![Work in progress!](./assets/github-gears-ultimate.svg)
+![Work in progress!]
 
 <div align="center">
   <img src="./assets/github-gears-ultimate.svg" width="500" />
