@@ -1,6 +1,6 @@
 # Hi there, I'm Simone! 👋
 
-I'm a Computer Science student 🤓💻 at UniCT, nothing less than in Sicily! While waiting for the next Etna eruption to cover my balcony in ash, I keep myself busy tinkering with code and learning new tech.
+I'm a Computer Science student 🤓💻 at UniCT, nothing less than in Sicily! While waiting for the next Etna🌋 eruption to cover my balcony in ash, I keep myself busy tinkering with code and learning new tech.
 
 - 🎓 **Education:** Currently pursuing a Master's degree in Artificial Intelligence.
 - ⚡ **Interests:** Gym, video games, anime, TV series and **plants & flowers** 🌿.
