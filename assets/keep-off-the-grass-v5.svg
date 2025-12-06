@@ -1,0 +1,135 @@
+<svg width="450" height="150" viewBox="0 0 450 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+
+    /* Animazione specifica per l'ape (vibrazione veloce) */
+    @keyframes buzz {
+      0%, 100% { transform: translate(0, 0); }
+      25% { transform: translate(2px, -2px); }
+      50% { transform: translate(0, -4px); }
+      75% { transform: translate(-2px, -2px); }
+    }
+
+    .pixel-group {
+      animation: float 3.5s ease-in-out infinite;
+      image-rendering: pixelated;
+      shape-rendering: crispEdges;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    /* Palette Colori Natura */
+    .stem { fill: #2e8b57; }
+    .grass-base { fill: #228b22; }
+    .grass-light { fill: #32cd32; }
+    .bush { fill: #006400; }
+    .lavender { fill: #9370db; }
+    
+    .daisy-petal { fill: #ffffff; }
+    .daisy-center { fill: #ffd700; }
+    .rose-light { fill: #ff3366; }
+    .rose-dark { fill: #c71585; }
+    
+    /* Colori Nuovo Cartello */
+    .sign-yellow { fill: #ffd700; stroke: #000; stroke-width: 2px; }
+    .sign-red { fill: #cc0000; }
+    .sign-black { fill: #000000; }
+    .post-green { fill: #006400; }
+    .screw-grey { fill: #808080; }
+    text.sign-text { fill: #000000; font-weight: bold; font-size: 12px; }
+
+    /* Colori Cartello (Invariati) */
+    .sign-red { fill: #ff0000; }
+    .sign-white { fill: #ffffff; }
+    .sign-dark { fill: #000000ff; }
+    .sign-post { fill: #8b4513; }
+
+    /* Colori Ape */
+    .bee-yellow { fill: #FFD700; }
+    .bee-black { fill: #222; }
+    .bee-wing { fill: #fff; opacity: 0.7; }
+
+    .bee-group {
+      animation: buzz 0.8s ease-in-out infinite; /* L'ape si muove diversamente dai fiori */
+    }
+
+  </style>
+
+  <g class="pixel-group">
+    
+    <rect x="0" y="130" width="450" height="20" class="grass-base"/>
+    <g class="grass-light">
+        <rect x="10" y="130" width="5" height="5" /><rect x="35" y="134" width="8" height="4" />
+        <rect x="80" y="130" width="5" height="5" /><rect x="150" y="132" width="10" height="4" />
+        <rect x="220" y="130" width="5" height="5" /><rect x="290" y="134" width="8" height="4" />
+        <rect x="360" y="130" width="5" height="5" /><rect x="430" y="132" width="6" height="4" />
+        <rect x="120" y="135" width="6" height="3" /><rect x="260" y="135" width="6" height="3" />
+    </g>
+    <g class="bush">
+        <rect x="0" y="115" width="60" height="15" /><rect x="10" y="110" width="40" height="5" /><rect x="20" y="105" width="20" height="5" />
+        <rect x="140" y="120" width="80" height="10" /><rect x="150" y="115" width="60" height="5" />
+        <rect x="350" y="118" width="80" height="12" /><rect x="360" y="113" width="60" height="5" /><rect x="380" y="108" width="30" height="5" />
+    </g>
+    <g transform="translate(70, 95)">
+        <rect x="2" y="15" width="2" height="35" class="stem"/><rect x="0" y="0" width="6" height="15" class="lavender"/><rect x="0" y="18" width="6" height="6" class="lavender"/>
+    </g>
+    <g transform="translate(320, 100)">
+        <rect x="2" y="15" width="2" height="30" class="stem"/><rect x="0" y="0" width="6" height="12" class="lavender"/><rect x="0" y="15" width="6" height="6" class="lavender"/>
+    </g>
+    <g transform="translate(100, 90)">
+       <rect x="6" y="15" width="4" height="25" class="stem"/><rect x="4" y="0" width="8" height="16" class="daisy-petal"/><rect x="0" y="4" width="16" height="8" class="daisy-petal"/><rect x="4" y="4" width="8" height="8" class="daisy-center"/>
+    </g>
+    <g transform="translate(360, 80)">
+       <rect x="8" y="20" width="4" height="30" class="stem"/><rect x="12" y="30" width="3" height="3" class="stem"/><rect x="4" y="0" width="12" height="18" class="rose-light"/><rect x="0" y="5" width="20" height="8" class="rose-light"/><rect x="6" y="4" width="8" height="4" class="rose-dark"/><rect x="4" y="8" width="4" height="4" class="rose-dark"/>
+    </g>
+    <g transform="translate(20, 115)"><rect x="2" y="4" width="2" height="11" class="stem"/><rect x="0" y="0" width="6" height="6" class="daisy-petal"/><rect x="2" y="2" width="2" height="2" class="daisy-center"/></g>
+    <g transform="translate(140, 112)"><rect x="2" y="4" width="2" height="14" class="stem"/><rect x="0" y="0" width="6" height="6" class="daisy-petal"/><rect x="2" y="2" width="2" height="2" class="daisy-center"/></g>
+    <g transform="translate(180, 118)"><rect x="2" y="4" width="2" height="8" class="stem"/><rect x="0" y="0" width="6" height="6" class="daisy-petal"/><rect x="2" y="2" width="2" height="2" class="daisy-center"/></g>
+    <g transform="translate(250, 110)"><rect x="2" y="4" width="2" height="16" class="stem"/><rect x="0" y="0" width="6" height="6" class="daisy-petal"/><rect x="2" y="2" width="2" height="2" class="daisy-center"/></g>
+    <g transform="translate(290, 116)"><rect x="2" y="4" width="2" height="10" class="stem"/><rect x="0" y="0" width="6" height="6" class="daisy-petal"/><rect x="2" y="2" width="2" height="2" class="daisy-center"/></g>
+    <g transform="translate(420, 115)"><rect x="2" y="4" width="2" height="11" class="stem"/><rect x="0" y="0" width="6" height="6" class="daisy-petal"/><rect x="2" y="2" width="2" height="2" class="daisy-center"/></g>
+
+    
+    <g transform="translate(360, 40)">
+        <g class="bee-group">
+            <rect x="2" y="-4" width="4" height="4" class="bee-wing"/>
+            <rect x="8" y="-4" width="4" height="4" class="bee-wing"/>
+            <rect x="0" y="0" width="14" height="8" class="bee-yellow"/>
+            <rect x="4" y="0" width="2" height="8" class="bee-black"/>
+            <rect x="9" y="0" width="2" height="8" class="bee-black"/>
+            <rect x="14" y="3" width="2" height="2" class="bee-black"/>
+            <rect x="1" y="2" width="2" height="2" class="bee-black"/>
+        </g>
+    </g>
+
+
+    <g transform="translate(140, 15)">
+      <path d="M 28 0 C 12.5 0 0 12.5 0 28 C 0 43.5 12.5 56 28 56 C 43.5 56 56 43.5 56 28 C 56 12.5 43.5 0 28 0 Z M 28 4 C 41.2 4 52 14.8 52 28 C 52 34.3 49.5 40 45.4 44.2 L 11.8 10.6 C 16 6.5 21.7 4 28 4 Z M 8.5 13.9 L 42.1 47.5 C 37.9 51.6 32.2 54 25.9 54 C 12.7 54 1.9 43.2 1.9 30 C 1.9 23.7 4.4 18 8.5 13.9 Z" class="sign-red"/>
+      <path d="M 28 4 C 41.2 4 52 14.8 52 28 C 52 34.3 49.5 40 45.4 44.2 L 11.8 10.6 C 16 6.5 21.7 4 28 4 Z M 8.5 13.9 L 42.1 47.5 C 37.9 51.6 32.2 54 25.9 54 C 12.7 54 1.9 43.2 1.9 30 C 1.9 23.7 4.4 18 8.5 13.9 Z" class="sign-white"/>
+      
+      <g transform="translate(12, 16)" class="sign-dark">
+        <rect x="14" y="0" width="10" height="14" />
+        <rect x="8" y="14" width="16" height="6" />
+
+        <g class="grass-light">
+        <rect x="0" y="24" width="32" height="2" />
+        <rect x="2" y="22" width="2" height="2" />
+        <rect x="6" y="20" width="2" height="4" />
+        <rect x="12" y="22" width="2" height="2" />
+        <rect x="18" y="20" width="2" height="4" />
+        <rect x="24" y="22" width="2" height="2" />
+        <rect x="28" y="20" width="2" height="4" />
+        <rect x="4" y="22" width="2" height="2" />
+        <rect x="9" y="21" width="2" height="3" />
+        <rect x="15" y="21" width="2" height="3" />
+        <rect x="21" y="22" width="2" height="2" />
+        <rect x="30" y="21" width="2" height="3" />
+        </g>
+      </g>
+      <path d="M 10 12 L 44 46 L 48 42 L 14 8 Z" class="sign-red"/>
+    </g>
+    
+    
+  </g>
+</svg>
