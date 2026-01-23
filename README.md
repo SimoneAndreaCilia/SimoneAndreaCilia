@@ -18,6 +18,8 @@ I'm a Computer Science student 🤓💻 at UniCT, nothing less than in Sicily! W
 
 <br />
 
+<br>
+
 - 🔭 **Current Projects:**
   - **HAIDE** 🇧🇬
     A gamified mobile app to learn Bulgarian (inspired by Duolingo). The goal is to finally communicate with my girlfriend's family!
