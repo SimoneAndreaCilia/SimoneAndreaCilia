@@ -19,12 +19,18 @@ I'm a Computer Science student 🤓💻 at UniCT, nothing less than in Sicily! W
 <br />
 
 - 🔭 **Current Projects:**
-  - I'm working on a **Duolingo-like app** to learn Bulgarian 🇧🇬. The goal is to finally communicate with my girlfriend's family (and vice versa)!
+  - **HAIDE** 🇧🇬
+    A gamified mobile app to learn Bulgarian (inspired by Duolingo). The goal is to finally communicate with my girlfriend's family!
+    ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+    - **Focus**: Cross-platform UI, Real-time Database, Auth.
+    - **Status**: In development.
+
   - **Virtual AI Spotter** 🏋️‍♂️
     A Computer Vision assistant for real-time form analysis and automatic rep counting.
-    ![YOLOv8](https://img.shields.io/badge/YOLOv8-blue) ![OpenCV](https://img.shields.io/badge/OpenCV-green) ![PyTorch](https://img.shields.io/badge/PyTorch-red)
+    ![YOLOv8](https://img.shields.io/badge/YOLOv8-blue) ![OpenCV](https://img.shields.io/badge/OpenCV-green) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
     - **Focus**: Pose Estimation, Geometric Analysis, FSM Logic.
     - **Status**: In development (MVP targeting Squat and Curl).
+
   - Gym-wise, I'm grinding to finally unlock the **Muscle-Up**! ✨
 
 
