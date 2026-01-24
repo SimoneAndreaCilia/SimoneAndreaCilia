@@ -6,6 +6,7 @@ I'm a Computer Science student 🤓💻 at UniCT, nothing less than in Sicily! W
 - ⚡ **Interests:** Gym, video games, anime, TV series and **plants & flowers** 🌿.
 
 <br />
+<br>
 <div align="center">
 
   **While you scroll down, be careful to not step on the grass!**
