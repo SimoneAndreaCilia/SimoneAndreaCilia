@@ -30,7 +30,7 @@ I'm a Computer Science student 🤓💻 at UniCT, nothing less than in Sicily! W
 
   - **Virtual AI Spotter** 🏋️‍♂️
     A Computer Vision assistant for real-time form analysis and automatic rep counting.<br>
-    ![YOLOv8](https://img.shields.io/badge/YOLOv8-blue) ![OpenCV](https://img.shields.io/badge/OpenCV-green) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+    ![YOLOv8](https://img.shields.io/badge/YOLOv8-blue) ![OpenCV](https://img.shields.io/badge/OpenCV-green) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white)
     - **Focus**: Pose Estimation, Geometric Analysis, FSM Logic.
     - **Status**: In development (MVP targeting Squat and Curl).
 
